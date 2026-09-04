@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>俄罗斯转盘</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>俄罗斯转盘</h1>
+        <div id="revolver-container">
+            <div id="revolver-cylinder">
+                <!-- 弹膛将由JS动态创建 -->
+            </div>
+        </div>
+        <div id="message-display">欢迎来到俄罗斯转盘！</div>
+        <div id="controls">
+            <button id="load-button">1. 装入子弹</button>
+            <button id="spin-button" disabled>2. 旋转弹巢</button>
+            <button id="trigger-button" disabled>3. 扣动扳机</button>
+        </div>
+        <button id="reset-button" style="display:none;">再玩一次</button>
+    </div>
+    <script src="russianRoulette.js"></script>
+</body>
+</html>
